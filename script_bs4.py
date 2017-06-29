@@ -28,8 +28,8 @@ def make_output(wiki_links,webpage_links):
 	output_df = pd.DataFrame(index=index)
 	output_df['wikipedia_page']=wiki_links
 	output_df['webpage']=webpage_links
-	output_df.to_csv('answer_bs4.csv')
-	output_df.to_csv('./data/answer_bs4.csv')
+	output_df.to_csv('wikipedia_answer_bs4.csv')
+	output_df.to_csv('./data/wikipedia_answer_bs4.csv')
 
 
 def main():
