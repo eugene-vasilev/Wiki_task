@@ -1,6 +1,6 @@
 # Wiki_task
 ### Description of task:
-Extract company website URL for each company wikipedia page from list(wikipedia links.csv).
+Extract company website URL for each company wikipedia page from list(wikipedia_links.csv).
 
 ### Using libs:
 * Pandas - work with data.
