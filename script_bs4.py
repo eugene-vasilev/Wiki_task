@@ -39,7 +39,7 @@ def main():
 		webpage_links=map(lambda x:find_link(x),df.links)
 		make_output(list(df.links),list(webpage_links))
 
-		print('See "answer_bs4.csv" file')
+		print('See "wikipedia_answer_bs4.csv" file')
 	else:
 		print("Give me a file, which contains wikipedia urls in '.csv' format please")
 
